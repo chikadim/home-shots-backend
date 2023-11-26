@@ -1,4 +1,4 @@
-<br><br>
+<br>
 
 <a id="top" href="https://home-shots-c660d38e541d.herokuapp.com/" target="_blank"><img src="documentation/readmeimages/logo.webp"></a><br />
 # HomeShots - A web app for home aesthetics enthusiasts to share images of beautiful homes
@@ -42,9 +42,9 @@ The frontend repository can be found <a href="https://github.com/chikadim/home-s
 1. As an authenticated API user I can create a new post
 2. As an authenticated API user I can edit a post
 3. As an authenticated API user I can delete a post
-4. As an authenticated API user I can create a recipe
-5. As an authenticated API user I can edit a recipe
-6. As an authenticated API user I can delete a recipe
+4. As an authenticated API user I can create post details
+5. As an authenticated API user I can edit a post details
+6. As an authenticated API user I can delete a post details
 7. As an authenticated API user I can login
 8. As an authenticated API user I can edit my profile
 9. As an authenticated API user I can like other users posts
