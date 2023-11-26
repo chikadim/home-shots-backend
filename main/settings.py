@@ -61,7 +61,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
-    '8000-chikadim-homeshotsbacke-2klupsj37sn.ws-eu106.gitpod.io',
+    '8000-chikadim-homeshotsbacke-2klupsj37sn.ws-eu106.gitpod.io'
 ]
 
 
@@ -115,7 +115,6 @@ if 'CLIENT_ORIGIN_DEV' in os.environ:
     ]
 
 CORS_ALLOW_CREDENTIALS = True
-
 
 ROOT_URLCONF = 'main.urls'
 
