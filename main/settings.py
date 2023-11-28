@@ -85,6 +85,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth.registration',
     'corsheaders',
+
+    'profiles',
 ]
 
 SITE_ID = 1
@@ -141,7 +143,7 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 
-if 'DEVEVELOPMENT' in os.environ:
+if 'DEVELOPMENT' in os.environ:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',

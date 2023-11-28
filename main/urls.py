@@ -20,8 +20,9 @@ from django.conf.urls import include
 
 
 urlpatterns = [
-    path('', root_route),
     path('admin/', admin.site.urls),
+    path('', root_route),
+    path('', include('profiles.urls')),
     path('dj-rest-auth/', include('dj_rest_auth.urls')),
     path(
         'dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')
