@@ -61,7 +61,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
-    '8000-chikadim-homeshotsbacke-2klupsj37sn.ws-eu106.gitpod.io'
+    '8000-chikadim-homeshotsbacke-71i3dbrbkpx.ws-eu106.gitpod.io'
 ]
 
 
@@ -94,7 +94,6 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
