@@ -32,7 +32,4 @@ urlpatterns = [
     path('', include('likes.urls')),
     path('', include('followers.urls')),
     path('', include('locations.urls')),
-
 ]
-
-urlpatterns += staticfiles_urlpatterns()
