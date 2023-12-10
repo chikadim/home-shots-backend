@@ -11,8 +11,8 @@ class Location(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    address = models.TextField()
-    country_culture = models.TextField(null=True)
+    addresses = models.TextField()
+    country = models.TextField(null=True)
 
     class Meta:
         ordering = ['-created_at']
