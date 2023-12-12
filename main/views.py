@@ -9,7 +9,7 @@ from .settings import (
 @api_view()
 def root_route(request):
     return Response({
-        "message": "Welcome you have reached the foodSNAP API!"
+        "message": "Welcome you have reached the homeShot API!"
     })
 
 
